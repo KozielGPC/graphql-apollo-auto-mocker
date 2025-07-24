@@ -1,0 +1,31 @@
+{
+  "name": "@kozielgpc/graphql-apollo-auto-mocker",
+  "version": "1.0.0",
+  "description": "Intelligent GraphQL mocking framework for Apollo Client",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm --out-dir dist",
+    "build:clean": "rm -rf dist",
+    "test": "echo \"No tests yet\" && exit 0",
+    "lint": "echo \"No linter yet\" && exit 0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "graphql": "^16.11.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.12.4",
+    "@faker-js/faker": "^9.9.0",
+    "@types/react": "^19.1.8",
+    "react": "^19.1.0"
+  }
+}

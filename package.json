@@ -1,5 +1,5 @@
 {
-  "name": "@kozielgpc/graphql-apollo-auto-mocker",
+  "name": "graphql-apollo-auto-mocker",
   "version": "1.0.0",
   "description": "Intelligent GraphQL mocking framework for Apollo Client",
   "main": "dist/index.js",
